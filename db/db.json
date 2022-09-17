@@ -33,15 +33,15 @@
     "opcionais": [
       {
         "id": 1,
-        "tipo": "Borda crocante"
+        "tipo": "Com bacon"
       },
       {
         "id": 2,
-        "tipo": "Borda normal"
+        "tipo": "Sem cebola"
       },
       {
         "id": 3,
-        "tipo": "Borda grande"
+        "tipo": "Sem alho"
       },
       {
         "id": 4,
@@ -65,69 +65,38 @@
   ],
   "pedidos": [
     {
-      "nome": "David Campos da Cruz",
-      "endereco": "Rua ABC 123",
-      "telefone": "(11)91234-5678",
-      "sabor": "Frango com Catupiry",
+      "nome": "David Campos",
+      "endereco": "Rua Alberta Alver N°140",
+      "telefone": "(11) 95438-1738",
+      "sabor": "Aliche",
       "opcionais": [
-        "Borda normal"
+        "Borda crocante"
       ],
       "status": "Solicitado",
       "id": 1
     },
     {
-      "nome": "Joao",
-      "endereco": "Rua CBA 321",
-      "telefone": "(12)8598-5236",
+      "nome": "",
+      "endereco": "",
+      "telefone": "",
       "sabor": "Portuguesa",
-      "opcionais": [
-        "Sem azeitona"
-      ],
+      "opcionais": [],
       "status": "Solicitado",
       "id": 2
     },
     {
-      "nome": "",
-      "endereco": "",
-      "telefone": "",
-      "sabor": "",
-      "opcionais": [],
-      "status": "Solicitado",
-      "id": 3
-    },
-    {
-      "nome": "David Campos da Cruz",
-      "endereco": "Rua ABC 123",
-      "telefone": "(12)8598-5236",
-      "sabor": "Atum com Cebola",
-      "opcionais": [
-        "Borda normal"
-      ],
-      "status": "Solicitado",
-      "id": 4
-    },
-    {
-      "nome": "Letícia",
+      "nome": "Joao",
       "endereco": "Rua CBA 321",
       "telefone": "(11)91234-5678",
-      "sabor": "4 Queijos",
+      "sabor": "Aliche",
       "opcionais": [
-        "Sem azeitona",
-        "Borda crocante"
+        "Sem alho",
+        "Com bacon",
+        "Sem cebola",
+        "Sem azeitona"
       ],
       "status": "Solicitado",
-      "id": 5
-    },
-    {
-      "nome": "David Campos da Cruz",
-      "endereco": "Rua ABC 123",
-      "telefone": "(11)91234-5678",
-      "sabor": "Atum com Cebola",
-      "opcionais": [
-        "Borda crocante"
-      ],
-      "status": "Solicitado",
-      "id": 6
+      "id": 3
     }
   ]
 }
