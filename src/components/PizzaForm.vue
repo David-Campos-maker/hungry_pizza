@@ -158,6 +158,7 @@ import Message from './Message.vue';
         color: #FCBA03;
         font-weight: bold;
         border: 2px solid #222;
+        border-radius: 2px;
         padding: 10px;
         font-size: 16px;
         margin: 0 auto;

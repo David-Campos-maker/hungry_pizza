@@ -63,40 +63,5 @@
       "tipo": "Finalizado"
     }
   ],
-  "pedidos": [
-    {
-      "nome": "David Campos",
-      "endereco": "Rua Alberta Alver N°140",
-      "telefone": "(11) 95438-1738",
-      "sabor": "Aliche",
-      "opcionais": [
-        "Borda crocante"
-      ],
-      "status": "Solicitado",
-      "id": 1
-    },
-    {
-      "nome": "",
-      "endereco": "",
-      "telefone": "",
-      "sabor": "Portuguesa",
-      "opcionais": [],
-      "status": "Solicitado",
-      "id": 2
-    },
-    {
-      "nome": "Joao",
-      "endereco": "Rua CBA 321",
-      "telefone": "(11)91234-5678",
-      "sabor": "Aliche",
-      "opcionais": [
-        "Sem alho",
-        "Com bacon",
-        "Sem cebola",
-        "Sem azeitona"
-      ],
-      "status": "Solicitado",
-      "id": 3
-    }
-  ]
+  "pedidos": []
 }
