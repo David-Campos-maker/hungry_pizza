@@ -12,7 +12,7 @@
 
 <style scoped>
     #main-banner {
-        background-image: url("C:\Users\Marilda\Pictures\Pizza.jpg");
+        background-image: url("@/assets/Pizza.jpg");
         background-position: 0 -250px;
         background-size: cover;
         height: 500px;
