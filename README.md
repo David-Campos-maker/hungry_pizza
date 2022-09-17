@@ -1,6 +1,6 @@
 # hungry_pizza
 ```
-Pimeiro projeto backend com vue
+First frontend project using vue.js
 ```
 ## Project setup
 ```
