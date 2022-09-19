@@ -61,7 +61,7 @@ import Message from './Message.vue';
         };
     },
     methods: {
-        async getPizzass() {
+        async getPizzas() {
             const req = await fetch("http://localhost:3000/pizzas");
             const data = await req.json();
             this.sabores = data.sabores;
@@ -97,7 +97,7 @@ import Message from './Message.vue';
         }
     },
     mounted() {
-        this.getPizzass();
+        this.getPizzas();
     }
 }
 </script>
@@ -133,7 +133,7 @@ import Message from './Message.vue';
     }
 
     #opcionais-title {
-        widows: 100%;
+        width: 100%;
     }
 
     .checkbox-container {
