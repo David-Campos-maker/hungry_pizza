@@ -33,18 +33,26 @@
     "opcionais": [
       {
         "id": 1,
-        "tipo": "Com bacon"
+        "tipo": "Bacon"
       },
       {
         "id": 2,
-        "tipo": "Sem cebola"
+        "tipo": "Cebola"
       },
       {
         "id": 3,
-        "tipo": "Sem alho"
+        "tipo": "Alho"
       },
       {
         "id": 4,
+        "tipo": "Alecrim"
+      },
+      {
+        "id": 5,
+        "tipo": "Tomilho"
+      },
+      {
+        "id": 6,
         "tipo": "Sem azeitona"
       }
     ]

@@ -11,15 +11,16 @@
             </div>
         </div>
         <div id="pizza-table-rows">
-            <div class="pizza-table-row">
-                <div class="order-number">1</div>
-                <div>David</div>
-                <div>Rua ABC 123</div>
-                <div>Marguerita</div>
+            <div class="pizza-table-row" v-for="pedido in pedidos" :key="pedido.id">
+                <div class="order-number">{{ pedido.id }}</div>
+                <div>{{ pedido.nome }}</div>
+                <div>{{ pedido.endereco }}</div>
+                <div>{{ pedido.sabor }}</div>
                 <div>
                     <ul>
-                        <li>Sem cebola</li>
-                        <li>Com bacon</li>
+                        <li v-for="(opcional , index) in pedido.opcionais" :key="index">
+                            {{ opcional }}
+                        </li>
                     </ul>
                 </div>
                 <div>
@@ -36,6 +37,27 @@
 <script>
     export default {
         name: "Dashboard" ,
+
+        data() {
+            return  {
+                pedidos: null ,
+                pedidos_id: null ,
+                status: []
+            }
+        },
+
+        methods: {
+            async getPedidos() {
+                const req = await fetch("http://localhost:3000/pedidos");
+                const data = await req.json();
+
+                this.pedidos = data;
+            }
+        },
+
+        mounted() {
+            this.getPedidos();
+        }
     }
 </script>
 
