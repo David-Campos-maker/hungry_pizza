@@ -27,4 +27,8 @@ export default {
         width: 100%;
     }
 
+    #footer p {
+        font-weight: bold;
+    }
+
 </style>
