@@ -26,7 +26,6 @@
         text-align: center;
         font-size: 60px;
         background-color: #222;
-        border-radius: 2px;
         padding: 20px 40px;
     }
 </style>

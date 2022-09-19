@@ -15,7 +15,7 @@
       },
       {
         "id": 4,
-        "tipo": "Atum com Cebola"
+        "tipo": "Atum"
       },
       {
         "id": 5,
@@ -28,6 +28,10 @@
       {
         "id": 7,
         "tipo": "Vegetariana"
+      },
+      {
+        "id": 8,
+        "tipo": "Peperone"
       }
     ],
     "opcionais": [
@@ -63,11 +67,11 @@
       "tipo": "Solicitado"
     },
     {
-      "id": 1,
+      "id": 2,
       "tipo": "Em produção"
     },
     {
-      "id": 1,
+      "id": 3,
       "tipo": "Finalizado"
     }
   ],
